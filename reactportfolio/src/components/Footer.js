@@ -36,31 +36,17 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Social Media</Heading>
-            <FooterLink href="#">
-              <i className="fab fa-facebook-f">
+            <FooterLink href="https://github.com/shonhatcher" target = '_blank'>
+              <i className="fab fa-github">
                 <span style={{ marginLeft: "10px" }}>
-                  Facebook
+                  Github
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-instagram">
+            <FooterLink href="http://www.linkedin.com/in/shon-hatcher-62bb06111" target = '_blank'>
+              <i className="fab fa-linkedin">
                 <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
+                  Linkedin
                 </span>
               </i>
             </FooterLink>
