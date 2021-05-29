@@ -4,8 +4,8 @@ import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home.js'
 import About from './components/pages/About.js'
-
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path = '/' exact component = {Home}/> 
           <Route path = '/About' exact component = {About}/>
         </Switch>
+        {/* <Footer/> */}
       </Router>
     </>
   );

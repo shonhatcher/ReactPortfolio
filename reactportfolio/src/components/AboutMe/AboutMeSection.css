@@ -5,5 +5,32 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 150px;
+    margin-top: 50px;
+    padding-top: -100px;
+    
+}
+
+
+h2{
+    color: black;
+    max-width: 250px;
+    height: auto;
+    /* border-radius: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+    padding-bottom: -300px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+p {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+    font-family: fantasy;
+    line-height: 200%;
 }
